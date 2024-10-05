@@ -7,7 +7,7 @@ class Zcr::TestZen < Minitest::Test
     refute_nil ::Zcr::Zen::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
-  end
+  # def test_it_does_something_useful
+  #   assert false
+  # end
 end
