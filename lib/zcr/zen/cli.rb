@@ -10,7 +10,7 @@ module Zcr
 
       desc "configure gem", "Configure the gem inside your project"
       def add(generator, *options)
-        BoringGenerators::CLI.new.generate("boring:#{generator}", options)
+        BoringGenerators::CLI.new.generate("boring:#{generator}:install", options)
       end
 
       desc "version", "Display gem version", hide: true
