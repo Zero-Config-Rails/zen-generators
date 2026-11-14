@@ -5,7 +5,7 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in zcr-zen.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
+gem "rake", "~> 13.4"
 
 gem "minitest", "~> 5.26"
 
