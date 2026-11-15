@@ -44,7 +44,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "boring_generators", "~> 0.14.0"
+  spec.add_dependency "boring_generators", ">= 0.14", "< 0.16"
   spec.add_dependency "thor", ">= 1.3", "< 1.6"
 
   # For more information and examples about making a new gem, check out our
